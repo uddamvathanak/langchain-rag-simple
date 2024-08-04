@@ -15,6 +15,10 @@ load_dotenv()
 #---- Set OpenAI API key 
 # Change environment variable name from "OPENAI_API_KEY" to the name given in 
 # your .env file.
+
+# create .env file and add line "OPENAI_API_KEY=[API Key]# " to make this code work
+# make sure that the account also allow the billing plan
+
 openai.api_key = os.environ['OPENAI_API_KEY']
 
 CHROMA_PATH = "chroma"
